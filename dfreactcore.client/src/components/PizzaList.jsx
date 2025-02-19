@@ -43,7 +43,7 @@ export function PizzaList({ name, data, onCreate, onUpdate, onDelete, error }) {
     return (
         <Box className='Box' sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h2>{name}</h2>
-            <p>This component demonstrates API CRUD operations for a Pizza menu. Data is transferred between the .NET back-end API and the applicaiton front-end</p>
+            <p>This component demonstrates API CRUD operations for a Pizza menu. Data is transferred between the .NET back-end API and the application front-end</p>
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 8 }}>
                 <TextField label="Name" name="name" value={formData.name} onChange={handleFormChange} />
                 <TextField label="Description" name="description" value={formData.description} onChange={handleFormChange} />

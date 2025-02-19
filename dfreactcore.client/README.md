@@ -25,6 +25,11 @@ Currently, two official plugins are available:
 	https://www.youtube.com/watch?v=U-_IHx-PJmI
 	How to Create a Responsive Navbar Using React - Material UI?
 
+
+-Implemented React Router
+	https://reactrouter.com/start/library/installation
+
+
 # TODO
 
 This should work out of the box assuming you have the dependencies on your machine:
@@ -37,7 +42,8 @@ This should work out of the box assuming you have the dependencies on your machi
 Next up todo:
 
 - Authentication
+	https://www.youtube.com/watch?v=eYiLt2gQuME (React and ASP.NET Core Identity Authentication net8)
 - Database Design/EF Scaffolding
-- Dapper
+- Dapper (https://www.learndapper.com/)
 - Page Content
 - Main Page Image/Navigation Buttons
