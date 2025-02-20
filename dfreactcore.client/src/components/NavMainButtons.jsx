@@ -4,9 +4,10 @@ import { Box } from '@mui/material';
 export function NavMainButtons() {
 
     const data = [
-        { title: 'About', description: '', imgurl: 'src/assets/img/eav.jpg'},
         { title: 'Resume', description: '', imgurl: 'src/assets/img/job.jpeg'},
         { title: 'Sandbox', description: '', imgurl: 'src/assets/img/code.jpg' },
+        { title: 'Canvas', description: '', imgurl: 'src/assets/img/canvas.png' },
+        { title: 'About', description: '', imgurl: 'src/assets/img/eav.jpg' },
     ];
 
     return (
@@ -18,7 +19,7 @@ export function NavMainButtons() {
                 gap: 2,
             }}>
             {data.map(item => (
-                <MultiActionCard title={item.title} description={item.description} imgurl={item.imgurl} key={item.id} />
+                <MultiActionCard title={item.title} description={item.description} imgurl={item.imgurl} key={item.title} />
             ))}
         </Box>
   );

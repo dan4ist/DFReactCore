@@ -11,6 +11,7 @@ import App from './App.jsx'
 import About from './pages/About.jsx';
 import Resume from './pages/Resume.jsx';
 import Sandbox from './pages/Sandbox.jsx';
+import Canvas from './pages/Canvas.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
                     <Route path="/about" element={<About />} />
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/sandbox" element={<Sandbox />} />
+                    <Route path="/canvas" element={<Canvas />} />
                 </Routes>
             </BrowserRouter>
         </ThemeProvider>

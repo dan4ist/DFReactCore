@@ -13,10 +13,10 @@ export function NavMenu() {
         setAnchorNav(null);
     };
 
-    const pages = ['About', 'Resume', 'Sandbox']
+    const pages = ['About', 'Resume', 'Sandbox', 'Canvas']
 
 	return (
-        <AppBar position='static'>
+        <AppBar position='static' style={{ backgroundColor: '#142' }}>
             <Toolbar>
 
                 {/* FULL SCREEEN MENU*/}
