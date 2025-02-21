@@ -39,11 +39,18 @@ This should work out of the box assuming you have the dependencies on your machi
 - Visual Studio/VSCode
 - Node.js
 
-Next up todo:
 
+TODID:
+- Page Content
+- Main Page Image/Navigation Buttons
+
+
+Next up todo:
+-Drawing App
+	https://www.youtube.com/watch?v=IcfhcJrtJqI (pt 2) (pt 1 done)
 - Authentication
 	https://www.youtube.com/watch?v=eYiLt2gQuME (React and ASP.NET Core Identity Authentication net8)
 - Database Design/EF Scaffolding
 - Dapper (https://www.learndapper.com/)
-- Page Content
-- Main Page Image/Navigation Buttons
+- DnD Character sheet
+	https://www.youtube.com/watch?v=-5pMNJ0MK2U
